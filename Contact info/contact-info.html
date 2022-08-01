@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <p>
+      Email-<a href="mailto:chiragrock366@gmail.com">chiragrock366@gmail.com</a>
+      <br />
+      Phone No.- 9311519248
+      <br />
+      Linkedin-
+      <a href="https://www.linkedin.com/in/chirag-gulati88/">chirag-gulati88</a>
+    </p>
+    <h2>Sample Form</h2>
+    <form action="mailto:chiragrock366@gmail.com" method="post" enctype="text/plain">
+      <div>
+        <label for="Name">Your Name:</label>
+        <input type="text" name="My Name" id="Name" value="" />
+      </div>
+      <br />
+      <div>
+        <label for="Role">Role:</label>
+        <input type="text" name="My Role" id="Role" value=""/>
+      </div>
+      <br />
+      <div>
+        <label for="Email">Email:</label>
+        <input type="email" name="My Email" id="Email" value=""/>
+      </div>
+      <br />
+      <div>
+        <label for="Joining Date">Date Of Joining:</label>
+        <input type="date" name="My Date Of Joining" id="Joining Date" value=""/>
+      </div>
+      <br />
+      <div>
+        <label for="Bonus">Bonus</label>
+        <input type="number" name="My Bonus" id="Bonus" value=""/>
+      </div>
+      <br />
+      <div>
+        <label for="Eligibility">Are You Eligible?</label>
+        <input type="checkbox" name="My Eligibility" id="Eligibility" checked value="" value=""/>
+      </div>
+      <br />
+      <div>
+        <label for="Gender">Gender:</label>
+        <label for="Gender">Male</label>
+        <input type="radio" name="My Gender" id="Gender" value=""/>
+        <label for="gender">Female</label>
+        <input type="radio" name="My Gender" id="Gender" value=""/>
+        <label for="Gender">Other</label>
+        <input type="radio" name="My Gender" id="Gender" value=""/>
+      </div>
+      <br />
+      <div>
+        <label for="Tell us about yourself">Tell us about yourself:</label>
+        <br />
+        <textarea
+          name="Myself"
+          id="Tell us about yourself"
+          cols="90"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="Car">Car:</label>
+        <select name="My Car" id="Car">
+          <option value="Wolkswagen">Wolkswagen</option>
+          <option value="Ford">Ford</option>
+          <option value="Hyundai"selected>Hyundai</option>
+          <option value="Suzuki">Suzuki</option>
+          <option value="Mahindra">Mahindra</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit Now" />
+        <input type="reset" value="Reset Now" />
+      </div>
+    </form>
+  </body>
+</html>
